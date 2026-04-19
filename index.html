@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="Menu.css">
+</head>
+<body>
+    <nav class="top-bar">
+        <div class="nav-brand">Contact us</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="Contact.html">Contact Us</a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1>Our Menu</h1>
+        <!-- Buttons for selecting menu items -->
+        <!-- Switches which coffees are shown based on whether active -->
+        <div class="categories">
+            <button class="category-btn active" data-category="espresso">Espresso</button>
+            <button class="category-btn" data-category="latte">Latte</button>
+            <button class="category-btn" data-category="cappuccino">Cappuccino</button>
+            <button class="category-btn" data-category="iced-coffee">Iced Coffee</button>
+        </div>
+
+        <!-- Menu Section -->
+        <!-- Displays menu items based on the selected category/class -->
+        <div class="menu-grid">
+            <div class="menu-item" data-category="espresso">
+                <div class="badge popular">Popular</div>
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee"></div>
+                <h3>Classic Espresso</h3>
+                <p>Rich and bold single or double shot of freshly pulled espresso. Perfect for coffee lovers.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="espresso">
+                <div class="badge new">New</div>
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee"></div>
+                <h3>Double Shot Espresso</h3>
+                <p>Extra strength espresso for a powerful boost, with a smooth crema finish and intense aroma.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="espresso">
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee"></div>
+                <h3>Espresso Macchiato</h3>
+                <p>Classic espresso topped with a dollop of steamed milk foam for a balanced, slightly sweet finish.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="latte">
+                <div class="badge new">New</div>
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee"></div>
+                <h3>Vanilla Latte</h3>
+                <p>Smooth espresso blended with steamed milk and a hint of vanilla. Creamy and delicious.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="latte">
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee"></div>
+                <h3>Hazelnut Latte</h3>
+                <p>Velvety steamed milk meets espresso with a toasted hazelnut flavor for a warming, nutty cup.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="latte">
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee "></div>
+                <h3>Caramel Latte</h3>
+                <p>Rich espresso paired with sweet caramel syrup and creamy milk, topped with just a touch of foam.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="cappuccino">
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee "></div>
+                <h3>Caramel Cappuccino</h3>
+                <p>Perfect balance of espresso, steamed milk, and foam topped with caramel drizzle.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="cappuccino">
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee "></div>
+                <h3>Mocha Cappuccino</h3>
+                <p>A chocolate twist on the classic cappuccino, with rich cocoa and silky milk foam.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="cappuccino">
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee "></div>
+                <h3>Cinnamon Cappuccino</h3>
+                <p>Espresso and milk foam with a warming hint of cinnamon spice for a cozy, aromatic drink.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="iced-coffee">
+                <div class="badge popular">Cool</div>
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee "></div>
+                <h3>Iced Mocha</h3>
+                <p>Chilled espresso mixed with cold milk and chocolate, served over ice for a refreshing treat.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="iced-coffee">
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee "></div>
+                <h3>Iced Latte</h3>
+                <p>A crisp and creamy iced latte with espresso poured over chilled milk for a smooth, cool sip.</p>
+                <p class="price">£1.50</p>
+            </div>
+            <div class="menu-item" data-category="iced-coffee">
+                <div class="item-image"> <img src="Images/Coffee.png" alt="Coffee "></div>
+                <h3>Cold Brew</h3>
+                <p>Smooth cold brew steeped slowly for a mellow, low-acid coffee experience served over ice.</p>
+                <p class="price">£1.50</p>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript loaded later  -->
+    <script src="Menu.Js"></script>
+</body>
+</html>
